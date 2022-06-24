@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main-hero-container {
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-hero {
+    width: 1000px;
+    position: relative;
+}
+
+.petro-pic {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 80px;
+    color: #ea2023;
+    color: #33a848;
+    color: #293884;
+    color: #8e3292;
+}
+
+.hero {
+    padding: 0 200px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    color: #00328e;
+    color: #f59b25;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00328e;
+    font-size: 40px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+.two-columns {
+    display: flex;
+
+}
+
+.left-column {
+    width: 50%;
+    padding: 10px;
+}
+
+.right-column {
+    width: 50%;
+    padding: 10px;
+}

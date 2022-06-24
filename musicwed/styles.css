@@ -1,0 +1,118 @@
+:root {
+    --black: rgb(196 191 191);
+    --blue: #00b;
+    --fullwidth: 100%;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    color: #d894eb;
+    font-size: 86px;
+    font-family: fantasy;
+    margin: 0;
+}
+
+
+body {
+    /* background: #2e008b; */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    font-size: 38px;
+    flex-grow: 1;
+    text-align: center;
+    border: 3px solid var(--black);
+    border-right: 1.5px solid var(--black);
+    cursor: pointer;
+}
+
+.split-column {
+    display: flex;
+}
+
+.column-1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.column-2 {
+    width: 50%;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero>div {
+    width: 750px;
+    max-width: 90vw;
+}
+
+.artist-card {
+
+    border: 3px solid var(--black);
+    border-radius: 30px;
+    color: black;
+    padding: 30px;
+    margin: 30px;
+    margin-top: 70px;
+}
+
+.artist-card-name {
+    font-size: 63px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+
+}
+
+li {
+    color: black;
+    font-size: 28px;
+}
+
+.photo-del-artista {
+    border-radius: 30px;
+}
+
+.arrow-right {
+    content: "PLAY";
+    /* background-image: url('./right.svg'); */
+    background-repeat: no-repeat;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    animation-duration: 1s;
+}
+
+.play-button {
+    width: 50px;
+    cursor: pointer;
+}
+
+.arrow-right:hover {
+    transform: scale(1.1);
+}
